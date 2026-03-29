@@ -74,11 +74,11 @@ export function HeroSection({ profile }: HeroSectionProps) {
               initial={reduceMotion ? false : { opacity: 0, y: 22 }}
               animate={reduceMotion ? undefined : { opacity: 1, y: 0 }}
               transition={{ duration: 0.55, delay: 0.1 }}
-              className="max-w-3xl whitespace-nowrap text-4xl font-semibold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
+              className="hero-title max-w-3xl whitespace-normal text-4xl font-semibold leading-tight tracking-tight sm:whitespace-nowrap sm:text-5xl lg:text-6xl"
             >
-              <span className="text-foreground text-5xl">Hello I&apos;m </span> 
+              <span className="hero-greeting text-foreground text-4xl sm:text-5xl">Hello I&apos;m </span>
               <br/>
-              <span className="bg-gradient-to-r from-cyan-300 via-sky-400 to-blue-500 bg-clip-text text-transparent">
+              <span className="hero-name bg-gradient-to-r from-cyan-300 via-sky-400 to-blue-500 bg-clip-text text-transparent">
                 Navneet Kumar Mridul
               </span>
             </motion.h1>
@@ -141,7 +141,7 @@ export function HeroSection({ profile }: HeroSectionProps) {
             initial={reduceMotion ? false : { opacity: 0, scale: 0.95 }}
             animate={reduceMotion ? undefined : { opacity: 1, scale: 1 }}
             transition={{ duration: 0.65, delay: 0.2 }}
-            className="section-shell relative h-[310px] overflow-hidden rounded-3xl sm:h-[360px] lg:h-[420px]"
+            className="hero-visual-card section-shell relative mx-auto h-[310px] w-full max-w-[22rem] justify-self-center overflow-hidden rounded-3xl sm:h-[360px] sm:max-w-none lg:mx-0 lg:justify-self-auto lg:h-[420px]"
           >
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_32%_28%,rgba(96,165,250,0.32)_0,rgba(29,78,216,0.25)_40%,rgba(11,22,39,0.94)_82%)]" />
             <div className="absolute inset-3 sm:inset-4">
