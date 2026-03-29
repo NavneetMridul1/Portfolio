@@ -48,13 +48,7 @@ export function HeroSection({ profile }: HeroSectionProps) {
       className="relative overflow-hidden border-b border-border/70 pb-20 pt-10 sm:pb-28 sm:pt-14"
     >
       <Container>
-        <div className="mb-10 flex items-center justify-between gap-4">
-          <a
-            href="#home"
-            className="text-sm font-semibold tracking-[0.16em] text-muted-foreground uppercase hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-          >
-            NAVNEET KUMAR MRIDUL
-          </a>
+        <div className="mb-10 flex items-center justify-start gap-4">
           <span className="inline-flex h-10 items-center rounded-full border border-border bg-background-elevated px-4 font-mono text-xs tracking-wide text-muted-foreground">
             OPEN TO WORK
           </span>
@@ -66,7 +60,7 @@ export function HeroSection({ profile }: HeroSectionProps) {
               initial={reduceMotion ? false : { opacity: 0, y: 15 }}
               animate={reduceMotion ? undefined : { opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="inline-flex rounded-full border border-border bg-surface-soft px-4 py-2 text-xs font-medium tracking-wide text-muted-foreground uppercase"
+              className="inline-flex rounded-full border border-border bg-surface-soft px-4 py-2 text-xs font-medium tracking-wide text-muted-foreground"
             >
               Software Engineer | Full-Stack Developer | GenAI Enthusiast
             </motion.p>

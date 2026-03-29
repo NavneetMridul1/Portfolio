@@ -2,7 +2,7 @@ import { Container } from "@/components/ui/container";
 
 const navItems = [
   { href: "#about", label: "About" },
-  { href: "#schooling", label: "Schooling" },
+  { href: "#schooling", label: "Education" },
   { href: "#experience", label: "Experience" },
   { href: "#projects", label: "Projects" },
   { href: "#small-projects", label: "Small Builds" },
