@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Premium Portfolio - Navneet Kumar Mridul
 
-## Getting Started
+Recruiter-first, modern personal portfolio built with Next.js, Tailwind CSS, Framer Motion, and a lightweight 3D hero accent.
 
-First, run the development server:
+## Tech Stack
+
+- Next.js (App Router) + TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Three Fiber + Drei (subtle 3D hero)
+- React Hook Form + Zod
+- Resend (contact form email delivery)
+
+## Project Structure
+
+```text
+src/
+  app/
+    api/contact/route.ts
+    globals.css
+    layout.tsx
+    page.tsx
+  components/
+    sections/
+      about.tsx
+      achievements.tsx
+      contact.tsx
+      experience.tsx
+      hero.tsx
+      profiles.tsx
+      projects.tsx
+      schooling.tsx
+      small-projects.tsx
+      site-footer.tsx
+      skills.tsx
+      top-nav.tsx
+    three/
+      hero-canvas.tsx
+      hero-orb.tsx
+    ui/
+      container.tsx
+      pill.tsx
+      reveal.tsx
+      section-heading.tsx
+  data/
+    achievements.json
+    experience.json
+    profile.json
+    projects.json
+    schooling.json
+    small-projects.json
+    skills.json
+  lib/
+    cn.ts
+    contact-schema.ts
+    rate-limit.ts
+  types/
+    content.ts
+```
+
+## Local Setup
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Configure environment variables:
+
+```bash
+cp .env.example .env.local
+```
+
+Set these in `.env.local`:
+
+- `RESEND_API_KEY` for email delivery
+- `CONTACT_TO_EMAIL` (optional override)
+- `CONTACT_FROM_EMAIL` (optional sender, default uses Resend onboarding sender)
+
+3. Run the dev server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build and Validate
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run build
+```
 
-## Learn More
+## Content Source of Truth
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Portfolio content is based on `Navneet_Mridul_Resume.pdf` and transformed into concise, impact-focused copy for recruiter readability.

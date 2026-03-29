@@ -1,0 +1,28 @@
+{
+  "name": "Navneet Kumar Mridul",
+  "role": "Software Engineer",
+  "tagline": "Full Stack Developer specializing in MERN and software development, building reliable, scalable web applications.",
+  "location": "New Delhi, India",
+  "email": "navneetkumarmridul@gmail.com",
+  "phone": "+91 8604155842",
+  "summary": "Software engineering graduate with hands-on experience building responsive web applications and REST APIs using the MERN stack.",
+  "about": [
+    "I focus on translating requirements into clear and reliable full-stack applications with structured logic and clean implementation.",
+    "My core strengths include building responsive user interfaces, integrating APIs, and implementing backend functionalities in full-stack systems.",
+    "I bring strong problem-solving discipline from extensive DSA practice and apply that thinking to write efficient and reliable code."
+  ],
+  "links": {
+    "linkedin": "https://linkedin.com/in/navneetmridul",
+    "github": "https://github.com/NavneetMridul1",
+    "portfolio": "#projects",
+    "leetcode": "https://leetcode.com/u/Navneet_Kumar_Mridul/",
+    "codechef": "https://www.codechef.com/users/navneet_mridul",
+    "codeforces": "https://codeforces.com/profile/nav_01",
+    "crio": "https://www.crio.do/learn/portfolio/navneet27july2000/"
+  },
+  "education": {
+    "institution": "Delhi Technological University, New Delhi",
+    "degree": "B.Tech, Software Engineering",
+    "timeline": "2021 - 2025"
+  }
+}

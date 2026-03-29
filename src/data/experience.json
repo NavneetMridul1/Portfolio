@@ -1,0 +1,39 @@
+[
+  {
+    "company": "Outlier",
+    "role": "AI Contributor",
+    "duration": "Mar 2026 - Present",
+    "location": "Remote",
+    "highlights": [
+      "Contributed to AI-focused task workflows requiring precision, structured reasoning, and quality checks.",
+      "Reviewed and refined outputs for clarity, correctness, and consistency across varied prompts.",
+      "Strengthened practical understanding of evaluation-driven GenAI workflows."
+    ],
+    "tech": ["GenAI Workflows", "Quality Evaluation", "Analytical Reasoning"]
+  },
+  {
+    "company": "Ridezzup",
+    "role": "Frontend Developer Intern",
+    "duration": "Jun 2025 - Jul 2025",
+    "location": "Remote",
+    "highlights": [
+      "Built responsive React.js interfaces that maintained a consistent user journey across multiple browsers and varied device breakpoints.",
+      "Improved rendering efficiency through React Hooks and memoization patterns, reducing avoidable re-renders in core flows.",
+      "Refactored shared UI components into reusable modules, raising maintainability across multiple user-facing workflows.",
+      "Integrated REST APIs for dynamic content delivery and helped maintain strong quality metrics, including high best-practices and SEO scores."
+    ],
+    "tech": ["React.js", "JavaScript (ES6+)", "REST APIs", "CSS", "Component Architecture"]
+  },
+  {
+    "company": "Chegg",
+    "role": "Computer Science Expert",
+    "duration": "Mar 2023 - Feb 2024",
+    "location": "Remote",
+    "highlights": [
+      "Delivered accurate and high-clarity solutions for Computer Science problems across varied topics.",
+      "Maintained quality and precision under tight turnaround expectations.",
+      "Improved explanation quality by focusing on concise logic and step-by-step reasoning."
+    ],
+    "tech": ["Problem Solving", "Computer Science Fundamentals", "Technical Writing"]
+  }
+]

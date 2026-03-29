@@ -1,0 +1,42 @@
+[
+  {
+    "title": "DSA Consistency",
+    "metric": "1000+ problems solved",
+    "detail": "Solved across major coding platforms with consistent contest and practice momentum.",
+    "year": "Ongoing",
+    "links": [
+      {
+        "label": "LeetCode",
+        "href": "https://leetcode.com/u/Navneet_Kumar_Mridul/"
+      },
+      {
+        "label": "CodeChef",
+        "href": "https://www.codechef.com/users/navneet_mridul"
+      },
+      {
+        "label": "Codeforces",
+        "href": "https://codeforces.com/profile/nav_01"
+      }
+    ]
+  },
+  {
+    "title": "CodeChef Div 3 Weekly Contest 142",
+    "metric": "Global Rank 159 / 4000+",
+    "detail": "Delivered a high-ranking global contest performance under strict time constraints."
+  },
+  {
+    "title": "CodeRush 2024",
+    "metric": "College Rank 12",
+    "detail": "Placed among top campus performers in a competitive coding challenge."
+  },
+  {
+    "title": "LeetCode Biweekly Contest 135",
+    "metric": "Global Rank 1207 / 31000+",
+    "detail": "Ranked strongly in a large-scale global contest with a broad problem-solving field."
+  },
+  {
+    "title": "Intra-Science Olympiad",
+    "metric": "Rank 3",
+    "detail": "Secured a top position in Class X school-level science olympiad competition."
+  }
+]

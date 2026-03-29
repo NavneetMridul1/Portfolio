@@ -1,0 +1,23 @@
+[
+  {
+    "name": "MINI-CRM",
+    "summary": "Lightweight CRM-style frontend deployment focused on fast lead/task interactions.",
+    "stack": ["React", "JavaScript", "Vercel"],
+    "githubUrl": "https://github.com/NavneetMridul1/MINI-CRM",
+    "liveUrl": "https://mini-crm-henna.vercel.app"
+  },
+  {
+    "name": "News-Surge",
+    "summary": "News app deployment with real-time feed integration and clean category-based browsing.",
+    "stack": ["HTML", "CSS", "JavaScript", "API"],
+    "githubUrl": "https://github.com/NavneetMridul1/News-Surge",
+    "liveUrl": "https://news-surge.vercel.app"
+  },
+  {
+    "name": "xdictionary",
+    "summary": "Dictionary utility deployment with search-first UX and quick definitions lookup.",
+    "stack": ["JavaScript", "Frontend", "Vercel"],
+    "githubUrl": "https://github.com/NavneetMridul1/xdictionary",
+    "liveUrl": "https://xdictionary-blond.vercel.app"
+  }
+]

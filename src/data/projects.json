@@ -1,0 +1,53 @@
+[
+  {
+    "id": "mediconnect",
+    "title": "MediConnect",
+    "summary": "A role-based hospital management system built to practice scalable backend design and access control.",
+    "problem": "Managing different user roles (patients, admins) with secure data access and clean separation of responsibilities is complex in full-stack systems.",
+    "solution": "Developed a MERN application implementing JWT authentication, role-based authorization, protected routes, and modular backend architecture to simulate real-world access control scenarios.",
+    "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "REST APIs"],
+    "features": [
+      "Patient and admin dashboards with role-specific capabilities",
+      "Secure authorization gates for sensitive routes",
+      "Structured backend schema for maintainable data ownership",
+      "Workflow-centric information architecture for faster operations"
+    ],
+    "githubUrl": "https://github.com/NavneetMridul1/MediConnect",
+    "demoUrl": "https://medi-connect-nzt2.vercel.app",
+    "status": "Production-style build"
+  },
+  {
+    "id": "jobquest",
+    "title": "JobQuest",
+    "summary": "A full-stack job portal built to simulate real-world hiring workflows and notification systems.",
+    "problem": "Designing consistent workflows for job posting, applications, and user roles while maintaining data integrity across the system.",
+    "solution": "Built a MERN application with role-based authentication, structured job/application schemas, and automated email notifications using Node Cron to handle asynchronous updates.",
+    "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Node Cron", "REST APIs"],
+    "features": [
+      "Role-based access model for seeker and employer journeys",
+      "Validated job posting and application pipelines",
+      "Scheduled alert notifications for timely opportunities",
+      "Responsive UX across core job discovery and application flows"
+    ],
+    "githubUrl": "https://github.com/NavneetMridul1/JobQuest",
+    "demoUrl": "https://job-quest-nwy6.vercel.app",
+    "status": "Production-style build"
+  },
+  {
+    "id": "qtrip-dynamic",
+    "title": "QTrip Dynamic",
+    "summary": "An interactive travel exploration web app focused on frontend performance and dynamic UI behavior.",
+    "problem": "Building responsive and interactive filtering systems while maintaining smooth UI updates and state consistency.",
+    "solution": "Implemented dynamic filtering, conditional rendering, and API-based reservation handling using vanilla JavaScript and Fetch API, focusing on efficient DOM updates and user experience.",
+    "techStack": ["HTML5", "CSS3", "JavaScript (ES6)", "Bootstrap", "DOM APIs", "Fetch API", "localStorage"],
+    "features": [
+      "Multi-select filter system for tailored adventure discovery",
+      "Interactive image carousel and dynamic UI updates",
+      "Session persistence through localStorage preferences",
+      "Reservation request integration via Fetch API"
+    ],
+    "githubUrl": "https://github.com/NavneetMridul1",
+    "demoUrl": "https://www.crio.do/learn/portfolio/navneet27july2000/",
+    "status": "Feature-complete"
+  }
+]

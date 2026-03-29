@@ -1,0 +1,33 @@
+[
+  {
+    "category": "Languages",
+    "items": ["C++", "JavaScript (ES6+)", "SQL"]
+  },
+  {
+    "category": "Technologies",
+    "items": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "Material UI"
+    ]
+  },
+  {
+    "category": "Tools",
+    "items": [
+      "Git",
+      "GitHub",
+      "VS Code",
+      "Cursor",
+      "Postman",
+      "Vercel",
+      "Render",
+      "Linux Basics"
+    ]
+  }
+]
