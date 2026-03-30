@@ -13,7 +13,7 @@ export function SchoolingSection({ items }: SchoolingSectionProps) {
       <Container>
         <SectionHeading
           eyebrow="Education Journey"
-          title="Schooling and academic journey."
+          title="Academic journey and schooling."
         />
 
         <div className="mt-8 space-y-4">
